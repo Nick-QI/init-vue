@@ -13,6 +13,7 @@ router.afterEach((to, from) => {
   const url = window.location.origin + to.fullPath
   console.log('单页面应用再次进行微信签名 ===> ', url, wx)
 })
+
 new Vue({
   router,
   store,
